@@ -15,6 +15,7 @@
 		003070862C0641BB004E2C94 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003070852C0641BB004E2C94 /* AccountView.swift */; };
 		003070882C0641CF004E2C94 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003070872C0641CF004E2C94 /* OrderView.swift */; };
 		0030708A2C0CCBF2004E2C94 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003070892C0CCBF2004E2C94 /* Appetizer.swift */; };
+		0030708C2C0D01CF004E2C94 /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0030708B2C0D01CF004E2C94 /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		003070852C0641BB004E2C94 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		003070872C0641CF004E2C94 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		003070892C0CCBF2004E2C94 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		0030708B2C0D01CF004E2C94 /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				003070852C0641BB004E2C94 /* AccountView.swift */,
 				003070872C0641CF004E2C94 /* OrderView.swift */,
 				003070892C0CCBF2004E2C94 /* Appetizer.swift */,
+				0030708B2C0D01CF004E2C94 /* AppetizerListCell.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0030708A2C0CCBF2004E2C94 /* Appetizer.swift in Sources */,
+				0030708C2C0D01CF004E2C94 /* AppetizerListCell.swift in Sources */,
 				003070862C0641BB004E2C94 /* AccountView.swift in Sources */,
 				003070782C064081004E2C94 /* AppetizerTabView.swift in Sources */,
 				003070762C064081004E2C94 /* AppetizersApp.swift in Sources */,
