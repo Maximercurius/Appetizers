@@ -30,6 +30,7 @@
 		003070962C137057004E2C94 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003070952C137057004E2C94 /* LoadingView.swift */; };
 		003070982C1371E1004E2C94 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003070972C1371E1004E2C94 /* Color+Ext.swift */; };
 		0030709A2C18BB9B004E2C94 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003070992C18BB9B004E2C94 /* RemoteImage.swift */; };
+		008161E52C3DA57F0038CE29 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008161E42C3DA57F0038CE29 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		003070952C137057004E2C94 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		003070972C1371E1004E2C94 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		003070992C18BB9B004E2C94 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		008161E42C3DA57F0038CE29 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 			children = (
 				003070892C0CCBF2004E2C94 /* Appetizer.swift */,
 				00221E012C35B57B008DC4F5 /* User.swift */,
+				008161E42C3DA57F0038CE29 /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				003070902C0E2AB8004E2C94 /* APError.swift in Sources */,
 				00221DFC2C32817E008DC4F5 /* XDismissButton.swift in Sources */,
 				0030708C2C0D01CF004E2C94 /* AppetizerListCell.swift in Sources */,
+				008161E52C3DA57F0038CE29 /* Order.swift in Sources */,
 				00221DFE2C346AA5008DC4F5 /* AccountViewModel.swift in Sources */,
 				003070922C0F8243004E2C94 /* AppetizerListViewModel.swift in Sources */,
 				003070982C1371E1004E2C94 /* Color+Ext.swift in Sources */,
