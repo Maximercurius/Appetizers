@@ -38,6 +38,7 @@ struct AppetizerDetailView: View {
             
             Button {
                 order.add(appetizer)
+                isShowingDetail = false
             } label: {
                 APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
