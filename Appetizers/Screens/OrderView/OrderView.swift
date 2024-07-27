@@ -26,8 +26,10 @@ struct OrderView: View {
                     Button {
                         print ("tap")
                     } label: {
-                        APButton(title: "$\(order.totalPrice, specifier: "%.f") - Place Order")
+//                        APButton(title: "$\(order.totalPrice, specifier: "%.f") - Place Order")
+                        Text("$\(order.totalPrice, specifier: "%.f") - Place Order")
                     }
+                    .modifier(StandartButtonStyle())
                     .padding(.bottom, 27)
                 }
                 if order.items.isEmpty {

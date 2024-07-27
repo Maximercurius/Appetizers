@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001A0C812C54D17200336433 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A0C802C54D17200336433 /* CustomModifiers.swift */; };
 		00221DFA2C32804C008DC4F5 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00221DF92C32804C008DC4F5 /* APButton.swift */; };
 		00221DFC2C32817E008DC4F5 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00221DFB2C32817E008DC4F5 /* XDismissButton.swift */; };
 		00221DFE2C346AA5008DC4F5 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00221DFD2C346AA5008DC4F5 /* AccountViewModel.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001A0C802C54D17200336433 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		00221DF92C32804C008DC4F5 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		00221DFB2C32817E008DC4F5 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		00221DFD2C346AA5008DC4F5 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				0028D5AD2C1C177400B539DB /* Image */,
 				0028D5AC2C1C176600B539DB /* Cells */,
 				0028D5AB2C1C175300B539DB /* UIKitComponents */,
+				001A0C802C54D17200336433 /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				0028D5AF2C1E12A400B539DB /* AppetizerDetailView.swift in Sources */,
 				003070762C064081004E2C94 /* AppetizersApp.swift in Sources */,
 				003070942C121EC4004E2C94 /* Alert.swift in Sources */,
+				001A0C812C54D17200336433 /* CustomModifiers.swift in Sources */,
 				003070842C0641A2004E2C94 /* AppetizerListView.swift in Sources */,
 				003070882C0641CF004E2C94 /* OrderView.swift in Sources */,
 			);
