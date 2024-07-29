@@ -41,4 +41,6 @@ struct AlertContext {
     static let invalidUserData = AlertItem(title: Text("Profile Error"),
                                               message: Text("Infomation about user NOT saved"),
                                               dismissButton: .default(Text ("OK")))
+
 }
+
